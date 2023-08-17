@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header className="text-grey-600 body-font h-17 fixed w-full bg-white shadow-md">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+    <header className="text-grey-600 body-font h-22 md:h-20 fixed w-full bg-white shadow-md">
+      <div className="container mx-auto flex flex-wrap flex-col p-5 md:flex-row items-center">
+        <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

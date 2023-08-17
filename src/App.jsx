@@ -54,7 +54,7 @@ export default function App() {
       <BrowserRouter>
         <div className="flex flex-col min-h-screen bg-gray-100">
           <Header />
-          <div className="flex justify-center items-center mt-28">
+          <div className="flex justify-center items-center mt-36 md:mt-28">
             <UserSelect />
           </div>
           <main className="flex-grow">
