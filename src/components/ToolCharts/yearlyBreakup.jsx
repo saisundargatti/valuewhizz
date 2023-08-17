@@ -73,7 +73,7 @@ const YearlyLoanBreakup = ({
   }
 
   return (
-    <div>
+    <div className="w-full overflow-x-auto">
       <div className="mt-4">
         <h2 className="text-xl font-semibold">Yearly Breakup</h2>
         <table className="mt-2 w-full border">

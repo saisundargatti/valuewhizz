@@ -55,6 +55,7 @@ function StackedColumnChart({ ipmtList, ppmtlist, labels, balanceList }) {
         stacked: false, // Set to false for the line chart's y-axis
       },
     },
+    maintainAspectRatio: false,
   };
 
   const data = {
@@ -90,7 +91,7 @@ function StackedColumnChart({ ipmtList, ppmtlist, labels, balanceList }) {
 
   return (
     <div>
-      <div>
+      <div className="h-[400px]">
         <Chart data={data} options={options} />
       </div>
     </div>
